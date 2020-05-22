@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		52B09AF524785DFB000C4C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09AF424785DFB000C4C54 /* AppDelegate.swift */; };
 		52B09AF724785DFB000C4C54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09AF624785DFB000C4C54 /* SceneDelegate.swift */; };
-		52B09AF924785DFB000C4C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09AF824785DFB000C4C54 /* ViewController.swift */; };
 		52B09AFC24785DFB000C4C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B09AFA24785DFB000C4C54 /* Main.storyboard */; };
 		52B09AFE24785DFD000C4C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B09AFD24785DFD000C4C54 /* Assets.xcassets */; };
 		52B09B0124785DFD000C4C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B09AFF24785DFD000C4C54 /* LaunchScreen.storyboard */; };
+		52B09B0924785EE4000C4C54 /* MyAuthorizationAppleIDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09B0824785EE4000C4C54 /* MyAuthorizationAppleIDButton.swift */; };
+		52B09B0B24785FE4000C4C54 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09B0A24785FE4000C4C54 /* KeychainItem.swift */; };
+		52B09B0D24786271000C4C54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09B0C24786271000C4C54 /* HomeViewController.swift */; };
+		52B09B12247875D2000C4C54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B09B11247875D2000C4C54 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52B09AF124785DFB000C4C54 /* AppleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B09AF424785DFB000C4C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B09AF624785DFB000C4C54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52B09AF824785DFB000C4C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52B09AFB24785DFB000C4C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B09AFD24785DFD000C4C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B09B0024785DFD000C4C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B09B0224785DFD000C4C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B09B0824785EE4000C4C54 /* MyAuthorizationAppleIDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAuthorizationAppleIDButton.swift; sourceTree = "<group>"; };
+		52B09B0A24785FE4000C4C54 /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		52B09B0C24786271000C4C54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52B09B0E247864C2000C4C54 /* AppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleLogin.entitlements; sourceTree = "<group>"; };
+		52B09B11247875D2000C4C54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +63,14 @@
 		52B09AF324785DFB000C4C54 /* AppleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				52B09B0E247864C2000C4C54 /* AppleLogin.entitlements */,
+				52B09B0824785EE4000C4C54 /* MyAuthorizationAppleIDButton.swift */,
+				52B09B0A24785FE4000C4C54 /* KeychainItem.swift */,
 				52B09AF424785DFB000C4C54 /* AppDelegate.swift */,
 				52B09AF624785DFB000C4C54 /* SceneDelegate.swift */,
-				52B09AF824785DFB000C4C54 /* ViewController.swift */,
+				52B09B0C24786271000C4C54 /* HomeViewController.swift */,
 				52B09AFA24785DFB000C4C54 /* Main.storyboard */,
+				52B09B11247875D2000C4C54 /* LoginViewController.swift */,
 				52B09AFD24785DFD000C4C54 /* Assets.xcassets */,
 				52B09AFF24785DFD000C4C54 /* LaunchScreen.storyboard */,
 				52B09B0224785DFD000C4C54 /* Info.plist */,
@@ -138,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B09AF924785DFB000C4C54 /* ViewController.swift in Sources */,
 				52B09AF524785DFB000C4C54 /* AppDelegate.swift in Sources */,
+				52B09B0B24785FE4000C4C54 /* KeychainItem.swift in Sources */,
 				52B09AF724785DFB000C4C54 /* SceneDelegate.swift in Sources */,
+				52B09B12247875D2000C4C54 /* LoginViewController.swift in Sources */,
+				52B09B0924785EE4000C4C54 /* MyAuthorizationAppleIDButton.swift in Sources */,
+				52B09B0D24786271000C4C54 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleLogin/AppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				INFOPLIST_FILE = AppleLogin/Info.plist;
@@ -302,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleLogin/AppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				INFOPLIST_FILE = AppleLogin/Info.plist;
